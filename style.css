@@ -1,0 +1,181 @@
+@import url('https://fonts.googleapis.com/css2?family=Do+Hyeon&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Hammersmith+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Balsamiq+Sans&display=swap');
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(89, 36, 143);
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Do Hyeon', sans-serif;
+    min-height: 100vh;
+    color: white;
+}
+
+.decHead{
+    text-shadow: 3px 5px 10px black;
+}
+
+.pw-container{
+    background-color: rgba(18, 23, 100, 0.753);
+    width: 700px;
+}
+
+.pw-header{
+    padding: 1rem;
+    display: flex;
+    
+}
+
+.pw-body{
+    font-family: 'Balsamiq Sans', cursive;
+    padding: 1rem;
+}
+
+.pw-button{
+    position: relative;
+    transform: translate(25%, 75%);
+}
+
+
+
+.pw{
+    background-color: black;
+    height: 70px;
+    display: flex;
+    font-size: 1.5rem;
+    padding: 2px;
+    margin: 2px;
+    align-items: center;
+    position: relative;
+    width: 95%;
+    overflow: auto;
+}
+
+.form-control{
+    font-size: 2rem;
+    display: flex;
+    justify-content: space-between;
+    margin: 0.5rem,0;
+}
+
+.generate{
+    background-color: black;
+    color: white;
+    display: block;
+    font-weight: bold;
+    font-size: 1.3rem;
+    padding: 0.75rem;
+    margin-top: 1.5rem;
+    border: none;
+    width: 100%;
+    transition: all 0.5s ease-in-out;
+}
+
+.generate:hover{
+    box-shadow: 3px 5px 10px white;
+}
+
+.cnct{
+    background: black;
+    color: white;
+    display: grid;
+    font-size: 0.7rem;
+    font-family: 'Hammersmith One', sans-serif;
+    justify-content: center;
+    align-items: center;
+}
+
+.fa-twitter {
+    background: black;
+    color: white;
+}
+
+.fa-github {
+    background: black;
+    color: white;
+}
+
+.fa-instagram {
+    background: black;
+    color: white;
+}
+
+#fact{
+    background: black;
+    color: white;
+}
+
+.fa-facebook{
+    background: black;
+    color: white;
+}
+
+@media only screen and (max-width: 690px){
+    body{
+        background-color: rgb(89, 36, 143);
+        margin: 0;
+        display: grid;
+        align-items: center;
+        justify-content: center;
+        font-family: 'Do Hyeon', sans-serif;
+        min-height: 100vh;
+        color: white;
+    }
+    
+    .pw-container{
+        background-color: rgba(18, 23, 100, 0.753);
+        width: 700px;
+    }
+    
+    .pw-header{
+        padding: 1rem;
+        display: grid;  
+    }
+    
+    .pw-body{
+        padding: 1rem;
+    }
+    
+    .pw-button{
+        position: relative;
+        transform: translate(25%, 75%);
+    }
+    
+    .pw{
+        background-color: black;
+        height: 70px;
+        display: flex;
+        font-size: 1.5rem;
+        padding: 2px;
+        margin: 2px;
+        align-items: center;
+        position: relative;
+        width: 95%;
+        overflow: auto;
+    }
+    
+    .form-control{
+        font-size: 2rem;
+        display: flex;
+        justify-content: space-between;
+        margin: 0.5rem,0;
+    }
+    
+    .generate{
+        background-color: black;
+        color: white;
+        display: block;
+        font-weight: bold;
+        font-size: 2rem;
+        padding: 0.75rem;
+        margin-top: 1.5rem;
+        border: none;
+        width: 100%;
+    }    
+}

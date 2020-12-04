@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <title>Document</title>
+</head>
+<body>
+    <div class="pw-container">
+        <div class="head">
+            <h2 align="center" class="decHead">RandomPassword.js</h2>
+            <p>&emsp;A simple random password generator</p>
+        </div>
+        <hr>
+        <div class="pw-header">
+            <div class="pw">
+                <span  id="pw">q@#$!R_(12Rtybx)->zd2_l1rfl?/pi1)-</span>
+            </div>    
+            <div class="copy">
+                <i id="copy" class="pw-button fa fa-clipboard" style="font-size: 30px;" onclick="copyPass()"></i>
+            </div>
+        </div>
+        <div class="pw-body">
+            <div class="form-control">
+                <label for="len">Password Length (4 to 64)</label>
+                <input id="len" type="range" min="4" max="64" oninput="printLen()">
+                <label id='pL' for="len">34</label>
+            </div>
+            <div class="form-control">
+                <label for="upper">Include Uppercase Letters (A-Z)</label>
+                <input id="upper" type="checkbox">
+            </div>
+            <div class="form-control">
+                <label for="lower">Include LowerCase Letters (a-z)</label>
+                <input id="lower" type="checkbox">
+            </div>
+            <div class="form-control">
+                <label for="numbers">Include Numbers (0-9)</label>
+                <input id="numbers" type="checkbox">
+            </div>
+            <div class="form-control">
+                <label for="symbols">Include Symbols(~`!@#%$^*)</label>
+                <input id="symbols" type="checkbox">
+            </div>
+            <button class="generate" id="genPwd" onclick="generatePassword()">Generate</button>
+        </div>
+        <hr>
+        <div class="cnct">
+            <h1>Created By</h1>
+            <h2>Karthik Raja</h2>
+            <div class="d-flex justify-content-center">
+                <br/>
+                <a href="https://www.facebook.com/profile.php?id=100008541247273" target="_blank" class="fa fa-facebook fa-2x" style="text-decoration: none;"></a>&emsp;
+                <a href="https://twitter.com/MrAnonymousofcl" class="fa fa-twitter fa-2x" target="_blank" style="text-decoration: none;"></a>&emsp;
+                <a href="https://www.instagram.com/mr.anonymous_official/" class="fa fa-instagram fa-2x" target="_blank" style="text-decoration: none;"></a>&emsp;
+                <a href="https://github.com/mr-anonymous-official" class="fa fa-github fa-2x" target="_blank" style="text-decoration: none;"></a>&emsp;
+            </div>
+            <footer>
+                <div><br/> © 2020 Copyright:  RandomPassword.js
+                </div>    
+            </footer>            
+        </div>         
+    </div> 
+</body>
+<script src='http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
+<script src="script.js"></script>
+</html>
