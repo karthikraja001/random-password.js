@@ -1,4 +1,4 @@
-<h1 align="center"><img src="https://user-images.githubusercontent.com/64122408/101174562-144dac00-366a-11eb-9080-3ac5fadc629d.jpg" height=50px width=50px>&emsp;Dark Maps  	🔀   +    :closed_lock_with_key:    ===>   :point_down:    </h1>
+<h1 align="center"><img src="https://user-images.githubusercontent.com/64122408/101174562-144dac00-366a-11eb-9080-3ac5fadc629d.jpg" height=50px width=50px>&emsp;RandomPassword.js  	🔀   +    :closed_lock_with_key:    ===>   :point_down:    </h1>
 <h1 align="center">Demo:&emsp;&emsp;   https://mr-anonymous-official.github.io/random-password.js/  </h1>
 
 <h1 align="center"><b>What's This? :brain:</b></h1>
